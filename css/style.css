@@ -1,0 +1,72 @@
+/* Google-fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Suez+One&display=swap');
+
+/* Normalize */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+
+
+    
+
+:root{
+    /* COLORS */
+    --primary-color: #F7CB15;
+    --secondary-color: #878E88;
+    --tertiary-color: #878E88;
+    --fourth-color: #000000;
+
+    /* shadows*/
+    --shadow-color:var(--fourth-color)
+    
+    /* fonts */
+    --title-font: 'Raleway', sans-serif;
+    --text-font:'Roboto, sans-serif';
+
+}
+
+.title{
+    font-family: var(--title-font);
+    font-size: var(--text-font);
+    color: var(--primary-color);
+}
+
+/* Body */
+
+body{
+    background-color: var(--primary-color);
+    font-family: var(--text-font);
+    color: var(--fourth-color);
+
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+
+    background-color: var(--secondary-color);
+    box-shadow: 0 5px 15px var(--shadow-color);
+
+    position: fixed;
+    width: 100%;
+}
+
+header h1{
+ 
+}
+
+/* Main */
+
+/* Footer */
+
+minuto 30 salte a git
